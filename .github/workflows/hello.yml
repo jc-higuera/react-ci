@@ -14,4 +14,4 @@ jobs:
           echo "Hello ISIS3710"
       - name: date
         run: |
-          echo -date
+          date --date
