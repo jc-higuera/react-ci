@@ -19,5 +19,3 @@ jobs:
         run: rm -rf node_modules && npm install  
       - name: Build
         run: npm run build
-      - name: lint
-        run: npm run eslint
